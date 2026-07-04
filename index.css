@@ -1,0 +1,328 @@
+.nav1{
+    padding:10px;
+    color:rgb(147, 255, 6);
+    font-style:italic;
+    font-family:"inter",sans-serif;
+    /*text-shadow:0px 4px 15px rgb(234, 173, 59);*/
+    font-size:30px;
+}
+.btn-marg{
+    margin-bottom: 20%;
+}
+.nav-link{
+    color:rgb(1, 247, 255);
+    font-style:oblique;
+    font-family:"Gillsans";
+    font-size:20px;
+}
+.nav-link:hover{
+    color:rgb(255, 0, 0);
+}
+.image-page{
+    background-image:url("font3.jpg");
+    padding:20% 5% 1% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head-page{
+    color:rgb(209, 239, 150);
+    font-size:50px;
+    font-style:italic;
+    font-family: sans-serif;
+}
+.para-page{
+    color:rgb(33, 32, 32);
+    font-size:35px;
+    font-style:italic;
+    font-family: sans-serif;
+}
+.btncol{
+    background-color:rgb(52, 169, 114);
+    border-radius: 5px;
+    padding:9px;
+    text-shadow:0px 6px 15px rgb(52, 169, 114);
+    font-size: 15px;
+    border: rgb(52, 169, 114);
+    color: white;
+    font-family:sans-serif;
+    border:solid 2px black;
+}
+.btncol:hover{
+    background-color: rgb(67, 62, 62);
+    color:greenyellow;
+}
+.btncol1{
+    border:none;
+    background-color:transparent;
+    border-radius: 5px;
+    padding:9px;
+    font-size: 15px;
+    color: white;
+    font-family:sans-serif;
+    border:solid 2px black;
+}
+.btncol1:hover{
+    color:greenyellow;
+}
+.head-about-div{
+    /*background-color:#f88604ea;*/
+    /*background-color: #f8e7c5;*/
+    /*background: linear-gradient(to right, #c67d40,#fd8702ea);*/
+    display:flex;
+    margin-bottom:10%;
+}
+.head-a{
+    padding-left:5%;
+    background-size:cover;
+    
+}
+.head-about{
+    color:rgba(0, 0, 0, 0.925);
+    margin-top:6%;
+    
+}
+.head-about:hover{
+    text-decoration: underline white;
+    color:white;
+}
+.para1-ab{
+    color: rgba(0, 0, 0, 0.925);
+    font-size:30px;
+    font-weight:bold;
+    font-family: sans-serif;
+    margin-top:3%;
+    margin-bottom:7%;
+}
+.para2-ab{
+    color: rgba(0, 0, 0, 0.925);
+    font-size:20px;
+    margin-bottom:8%;
+    font-family: sans-serif;
+}
+.about-img{
+    height:40%;
+    width:50%;
+    float:right;
+    margin-left: 7%;
+    margin-right:3%;
+}
+.skill-div{
+    margin-bottom:5%;
+    margin-top:15%;
+}
+.skill-head{
+    font-size:30px;
+    color:black;
+    font-style:italic;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-top:10%;
+    margin-bottom:3%;
+}
+.skill-para{
+    font-size:20px;
+    font-family: sans-serif;
+    color:black;
+    padding-left:10%;
+    padding-right:10%;
+    margin-bottom:4%;
+}
+.btn-back{
+    border:2px solid rgb(14, 4, 4);
+    padding:20px;
+    margin:10px;
+    
+    border-radius:20px;
+    border:whitesmoke;
+    box-shadow:0px 0px 10px rgb(50, 49, 49);
+    background-color: whitesmoke;
+}
+.btn1{
+    background-color:lightgrey;
+    border-radius:10px;
+    border:none;
+    font-size:12px;
+    padding:10px 15px 10px 15px;
+    margin:5px;
+}
+.btn-head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:unset;
+    color:black;
+    font-size:30px;
+    margin-bottom:30px;
+}
+.btn-head:hover{
+    color:rgb(119, 74, 74);
+}
+.icon-con{
+    border:1px solid rgba(247, 241, 241, 0.748);
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:20px;
+    background-color: rgba(251, 248, 248, 0.715);
+    text-shadow:0px 0px 10px rgba(0, 0, 0, 0.962);
+    display:inline-block;
+    flex-wrap: wrap;
+}
+.project-card{
+    display: inline-block;
+    flex-direction: colum;
+    flex:0 0 37% ;
+    margin:2% 10px 2% 5%;
+    min-width:350px;
+    border:whitesmoke;
+    box-shadow:0px 0px 10px rgb(50, 49, 49);
+    background-color: white;
+}
+.pro-head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:black;
+    font-size:30px;   
+}
+.pro-head:hover{
+    color:rgba(86, 157, 86, 0.705);
+}
+.pro-para{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-size:20px;
+    margin-bottom:15px;
+}
+.pro-head1{
+    font-size: 15px;
+    padding-top:15px;
+    padding-bottom:7px;
+}
+.pro-head2{
+    font-size: 15px;
+    padding-top:15px;
+    padding-bottom:7px;
+    padding-left:15px;
+}
+.pro-icon{
+    margin:10px 3px 10px 5px;
+}
+.pro-name{
+    font-family:Georgia, serif;
+    font-weight: bold;
+    color:white;
+    font-size:40px;
+    margin-left:5%;
+}
+.pro-card-scroll{
+    padding:15px;
+    display: flex;
+    overflow-x: auto; 
+    gap:10px;
+    white-space: normal;
+}
+.pro-card-scroll::-webkit-scrollbar{
+    height:6px;
+}
+.pro-card-scroll::-webkit-scrollbar-track{
+    background: #e5e7eb;
+    border-radius: 10px;
+}
+
+.pro-card-scroll::-webkit-scrollbar-thumb{
+    background: #2b2b2e;
+    border-radius: 10px;
+}
+
+.pro-card-scroll::-webkit-scrollbar-thumb:hover{
+    background: #c2c2c6;
+}
+.chat-pro{
+    float:left;
+    margin-right:3%;
+}
+/*@media (max-height: 768px) {
+    .chat-pro{
+        margin-right:2%;
+        height: 300px;
+    }
+}*/
+.chat-head{
+    font-size:20px;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bold;
+}
+.chat-para{
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:none;
+}
+.chat-card{
+    margin:5% 2% 3% 2%;
+}
+.chat-para2{
+    font-size:14px;
+    font-family: sans-serif;
+    padding-left:10px;
+    padding-top:10px;
+}
+.chat-form{
+    display:inline-block;
+}
+.icon-last{
+    border:2px solid rgb(197, 178, 178) ;
+    border-radius:23px;
+    box-shadow:inset 2px 2px 6px rgb(240, 238, 238);
+    padding:12px;
+    display:inline-flex;
+    margin-right:14px;
+}
+.last-head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(247, 240, 240);
+    font-size:30px;
+}
+.last-head:hover{
+    color:rgb(163, 192, 207);
+}
+.last-para{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(177, 154, 154);
+    font-size:18px;
+}
+.head-contact{
+    color:grey;
+    font-size:20px;
+    font-family: sans-serif;
+}
+.head-contact:hover{
+    color:red;
+}
+.para-ad{
+    color:grey;
+    font-size:18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.para-ad:hover{
+    color:red;
+}
+.ans-ad{
+    color:rgb(200, 104, 104);
+    font-size:15px;
+    font-family: sans-serif;
+}
+.ans-ad:hover{
+    color:rgb(234, 220, 220);
+}
+.last-end{
+    padding:3% 5% 2% 5%;
+    background-color: rgb(0, 0, 0);
+}
+.last{
+    text-align:center;
+    color:grey;
+}
+.last:hover{
+    color:red;
+}
